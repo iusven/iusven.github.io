@@ -34,6 +34,10 @@ h2 {
 	font-size: 36px;
 }
 
+h5{
+	height: 30px;
+}
+
 p {
 	font-size: 15px;
 	color: #6c6e7e;
@@ -103,7 +107,7 @@ ul {
 }
 
 .spad {
-	padding-top: 95px;
+	padding-top: 0px;
 	padding-bottom: 95px;
 }
 
@@ -423,7 +427,7 @@ ul {
 
 .lab-card {
 	position: relative;
-	margin-top: -50px;
+	margin-top: 50px;
 	padding: 50px 25px;
 	text-align: center;
 	height: 400px;
@@ -465,6 +469,7 @@ ul {
 	background: #2be6ab;
 }
 
+.lab-card:hover h5,
 .lab-card:hover h2,
 .lab-card:hover p,
 .lab-card:hover .icon {
