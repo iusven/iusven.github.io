@@ -641,7 +641,11 @@ ul {
   align-items: center;
   justify-content: center;
 }
-
+.service > .arrow {
+	margin: 0 auto;
+	text-align: center;
+	color: #ccc;
+}
 .service,
 .icon-box {
 	display: -webkit-inline-box;
@@ -1752,23 +1756,29 @@ ul {
 	    height: 650px;
 	    transition: all 0.5s ease-in-out 0s;
 	}
+	.plans:hover {
+		z-index: 999;
+	}
 	.pricingTable > .pricingTable-header{
 	    color:#fff;
 	    background: #6a23b5;
 	    height: 190px;
 	    position: relative;
 	    transition: all 0.5s ease 0s;
+	    overflow: hidden;
 	}
 	.pricingTable > .pricingTable-header:after{
 	    content: "";
-	    border-bottom: 40px solid #2be6ab;
-	    border-left: 263px solid transparent;
-	    position: absolute;
-	    right:0px;
-	    bottom: 0px;
+	    margin-top: 4%;
+	    display: block;
+	    width: 150%;
+	    height: 100%;
+	    background: #2be6ab;
+	    transform: rotate(-9deg);
 	}
-	.pricingTable:hover .pricingTable-header{
-	    height: 230px;
+	.pricingTable:hover{
+		z-index: 999;
+	    transform: scale(1.1);
 	    transition: all 0.5s ease 0s;
 	}
 	.pricingTable-header > .heading{
@@ -1781,7 +1791,7 @@ ul {
 	}
 	.pricingTable-header > .price-value{
 	    display: block;
-	    font-size: 40px;
+	    font-size: 60px;
 	    line-height: 60px;
 	}
 	.pricingTable-header > .price-value > .mo{
@@ -1799,11 +1809,17 @@ ul {
 	.pricingTable > .pricingContent{
 		font-size: 12px;
 	    text-transform: uppercase;
-	    color:#fff
+	    color:#fff;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    flex-direction: column;
+	    height: 50%
 	}
 	.pricingTable > .pricingContent > ul{
 	    list-style: none;
 	    padding: 0;
+	    align-self: center;
 	}
 	.pricingTable > .pricingContent > ul > li{
 	    padding: 15px 0;
@@ -1813,10 +1829,7 @@ ul {
 	    border: 0px none;
 	}
 	.pricingTable-sign-up{
-		position: absolute;
-		bottom: 30px;
-		width: 95%;
-	    padding: 30px;
+		width: 100%;
 	}
 	.pricingTable-sign-up > .btn-block{
 	    width: 80%;
@@ -1868,6 +1881,16 @@ ul {
 	    }
 	    .pricingTable > .pricingTable-header:after {
 	        border-left: 459px solid rgba(0, 0, 0, 0);
+	    }
+	    .service {
+	    	display: block;
+	    	text-align: center;
+	    }
+	    .service .icon{
+	    	margin: 0 auto;
+	    }
+	    .arrow {
+	    	transform: rotate(90deg);
 	    }
 	}
 	/*FIN CARD PLANES COORPORATIVOS*/
