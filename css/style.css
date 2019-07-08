@@ -427,10 +427,10 @@ ul {
 
 .lab-card {
 	position: relative;
-	margin-top: 50px;
+	margin-top: 30px;
 	padding: 50px 25px;
 	text-align: center;
-	height: 400px;
+	height: 450px;
 	background: #f5faf8;
 	-webkit-box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
 	        box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
@@ -1558,11 +1558,8 @@ ul {
 		left: 50%;
 		margin-left: -4px;
 	}
-	.card-section {
-		padding-bottom: 0;
-	}
 	.lab-card {		
-		margin-bottom: 80px;
+		margin-bottom: 90px;
 	}
 	.promotion-section .promo-btn-area {
 		text-align: left;
