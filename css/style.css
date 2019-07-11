@@ -108,7 +108,7 @@ ul {
 
 .spad {
 	padding-top: 0px;
-	padding-bottom: 95px;
+	padding-bottom: 30px;
 }
 
 .section-title {
@@ -404,6 +404,7 @@ ul {
 	background: #6a23b5;
 	position: relative;
 	z-index: 2;
+	padding-bottom: 25px;
 }
 
 .overlay {
@@ -641,7 +642,7 @@ ul {
 	header and icon box element
 ------------------------------------*/
 .service {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -928,6 +929,7 @@ ul {
 /*------------------------
 	Features Section
 --------------------------*/
+
 .features .icon-box .icon {
 	color: #2be6ab;
 	margin-top: -10px;
@@ -1658,7 +1660,7 @@ ul {
 		margin-left: -4px;
 	}
 	.card-section {
-		padding-bottom: 0;
+		padding-bottom: 20px;
 	}
 	.lab-card {
 		margin-bottom: 80px;
