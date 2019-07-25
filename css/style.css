@@ -34,6 +34,14 @@ h2 {
 	font-size: 36px;
 }
 
+h3 {
+	color: #fff;
+}
+
+h4 {
+	color: #fff;
+}
+
 h5{
 	height: 30px;
 }
@@ -43,6 +51,14 @@ p {
 	color: #6c6e7e;
 	line-height: 30px;
 	font-family: "Roboto", sans-serif;
+}
+
+ol li{
+	color: #fff;
+}
+
+ul i{
+	color: #fff;
 }
 
 a:hover,
@@ -153,6 +169,10 @@ ul {
 
 .section-title.dark h2 {
 	color: #0b1033;
+}
+
+.white{
+	color: #fff;
 }
 
 /*------------------------
@@ -406,6 +426,14 @@ ul {
 	z-index: 2;
 	padding-bottom: 25px;
 }
+
+.about-section p{
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	font-family: "Roboto", sans-serif;
+}
+
 
 .overlay {
 	position: absolute;
