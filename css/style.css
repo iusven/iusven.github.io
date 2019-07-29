@@ -175,6 +175,11 @@ ul {
 	color: #fff;
 }
 
+.paragraphs{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 /*------------------------
 	Common elements
 --------------------------*/
@@ -459,7 +464,7 @@ ul {
 	margin-top: 30px;
 	padding: 50px 25px;
 	text-align: center;
-	height: 450px;
+	height: 525px;
 	background: #f5faf8;
 	-webkit-box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
 	        box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
