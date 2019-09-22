@@ -1535,7 +1535,8 @@ ul {
 	font-weight: 500;
 }
 
-
+.link { color: #2be6ab; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
 
 /* ===========================
 	Responsive
